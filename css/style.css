@@ -20,6 +20,10 @@
     padding: 10px;
 }
 
+.cabecalho-nav-link:hover{
+    color: blue;
+}
+
 /*Conteudo*/
 .conteudo-Pessoal-nav-link{
     text-decoration: none;
