@@ -1,0 +1,64 @@
+/*Cabeçalho*/
+.corpoPrincipal{
+    background: #EEEEEE;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0%;
+}
+
+.cabecalho .container{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cabecalho-nav-link {
+    text-decoration: none;
+	color: #000000;
+    padding: 10px;
+}
+
+/*Conteudo*/
+.conteudo-Pessoal-nav-link{
+    text-decoration: none;
+	color: #000000;
+    margin-right: 25px;
+}
+
+.conteudo .conteudo-Pessoal{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.conteudo .conteudo-Pessoal .conteudo-Pessoal-Texto{
+    text-indent: 3ch;
+}
+
+.conteudo-Pessoal .conteudo-Pessoal-fotoPerfil{
+    width: 25%;
+    margin-right: 1%;
+    border-radius: 150px;
+    
+}
+
+.conteudo .conteudo-SobreMim{
+    background: #ecf0ff;
+    padding: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.conteudo .conteudo-SobreMim .conteudo-SobreMim-Texto{
+    text-indent: 3ch;
+    font-family: cursive;
+}
+
+.skills .container{
+    text-align: center;
+}
